@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>排球少年！！</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <script src="data/index.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">🏐 Haikyuu!!</div>
+
+        <ul class="nav-links">
+            <li><a href="#intro">作品介紹</a></li>
+            <li><a href="#anime">動畫</a></li>
+            <li><a href="#movie">2027電影</a></li>
+            <li><a href="#teams">主要球隊</a></li>
+            <li><a href="#charm">魅力</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <span class="tag">烏野高中 × 熱血青春 × 全國大賽</span>
+
+        <h1>排球少年！！</h1>
+
+        <p>
+            熱血青春 × 團隊合作 × 全國大賽<br>
+            跟隨日向翔陽與烏野高中挑戰全國舞台
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#intro" class="btn-primary">開始認識</a>
+            <a href="#teams" class="btn-secondary">選擇隊伍</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/haikyuu-bg.jpg" alt="排球少年主視覺">
+    </div>
+</section>
+
+<section class="stats">
+    <div class="stat-card"><h3>45</h3><p>漫畫單行本</p></div>
+    <div class="stat-card"><h3>4+</h3><p>動畫季度</p></div>
+    <div class="stat-card"><h3>2027</h3><p>劇場版上映</p></div>
+    <div class="stat-card"><h3>∞</h3><p>青春熱血</p></div>
+</section>
+
+<section id="intro" class="section">
+    <div class="section-title">
+        <span>ABOUT</span>
+        <h2>作品介紹</h2>
+        <p>從一顆排球開始，一群少年學會飛翔。</p>
+    </div>
+
+    <div class="content-card">
+        <p>
+            《排球少年！！》是古舘春一創作的排球漫畫。
+            主角日向翔陽雖然身高不高，卻因為看見「小巨人」在球場上飛翔，
+            從此立志要站上排球場。
+        </p>
+
+        <p>
+            進入烏野高中後，他遇見天才舉球員影山飛雄，
+            也遇見一群一起拚命努力的隊友。
+            他們一步一步挑戰宮城強校，朝著全國大賽前進。
+        </p>
+    </div>
+</section>
+
+<section id="anime" class="section">
+    <div class="section-title">
+        <span>ANIME</span>
+        <h2>動畫推薦</h2>
+        <p>動畫把速度、吶喊、配樂與球場臨場感全部放大。</p>
+    </div>
+
+    <div class="grid">
+        <div class="info-card">
+            <div class="icon">🎧</div>
+            <h3>配樂熱血</h3>
+            <p>比賽時的音樂與節奏，會讓觀眾直接進入球場氣氛。</p>
+        </div>
+
+        <div class="info-card">
+            <div class="icon">🏐</div>
+            <h3>動作流暢</h3>
+            <p>扣殺、攔網、接球、快攻都被動畫化得很有速度感。</p>
+        </div>
+
+        <div class="info-card">
+            <div class="icon">🔥</div>
+            <h3>情緒爆發</h3>
+            <p>角色的吶喊、挫折與突破，透過聲音表演更加感人。</p>
+        </div>
+    </div>
+</section>
+
+<section id="movie" class="section movie-section">
+    <div class="section-title">
+        <span>2027 MOVIE</span>
+        <h2>劇場版：VS 小巨人</h2>
+        <p>日向翔陽一路追逐的身影，終於要在更大的舞台上被回應。</p>
+    </div>
+
+    <div class="content-card">
+        <span class="movie-label">COMING SOON</span>
+
+        <p>
+            2027 年劇場版《VS 小巨人》將迎來新的高潮。
+            對日向翔陽來說，小巨人是夢想起點，也是一路努力奔跑的方向。
+        </p>
+    </div>
+</section>
+
+<section id="teams" class="section teams-section">
+    <div class="section-title center">
+        <span>GAME SELECT</span>
+        <h2>選擇你的隊伍</h2>
+        <p>故事以烏野高中為主角出發，但在每個人心中或許都有自己認為的主角</p>
+    </div>
+
+    <div class="game-select">
+
+        <div class="select-menu">
+
+            <button class="select-card active" data-team="karasuno">
+                <div class="team-thumb-frame">
+                    <img src="images/haikyuu-kv.jpg" alt="烏野高中">
+                </div>
+                <h3>烏野高中</h3>
+                <p>KARASUNO</p>
+            </button>
+
+            <button class="select-card" data-team="nekoma">
+                <div class="team-thumb-frame">
+                    <img src="images/team-nekoma.jpg" alt="音駒高中">
+                </div>
+                <h3>音駒高中</h3>
+                <p>NEKOMA</p>
+            </button>
+
+            <button class="select-card" data-team="aoba">
+                <div class="team-thumb-frame">
+                    <img src="images/411619ff440b095202afc0bb36b0bb6d.jpg" alt="青葉城西">
+                </div>
+                <h3>青葉城西</h3>
+                <p>AOBA JOHSAI</p>
+            </button>
+
+            <button class="select-card" data-team="shiratorizawa">
+                <div class="team-thumb-frame">
+                    <img src="images/3b01624bb30a5f41cea63ca248da3735.jpg" alt="白鳥澤">
+                </div>
+                <h3>白鳥澤</h3>
+                <p>SHIRATORIZAWA</p>
+            </button>
+
+            <button class="select-card" data-team="inarizaki">
+                <div class="team-thumb-frame">
+                    <img src="images/c5f4aa2b30510786329827607288a619.jpg" alt="稻荷崎">
+                </div>
+                <h3>稻荷崎</h3>
+                <p>INARIZAKI</p>
+            </button>
+
+            <button class="select-card" data-team="kamomedai">
+                <div class="team-thumb-frame">
+                    <img src="images/fce2434aa64dfa2e2efeb3962a79c31b.jpg" alt="鷗台高中">
+                </div>
+                <h3>鷗台高中</h3>
+                <p>KAMOMEDAI</p>
+            </button>
+
+        </div>
+
+        <div class="team-screen karasuno-theme" id="teamScreen">
+
+            <div class="team-image-box">
+                <img id="teamIcon" src="images/karasuno.png" alt="">
+            </div>
+
+            <div class="team-info">
+                <p class="team-code" id="teamCode">PLAYER 01</p>
+
+                <h3 id="teamName">烏野高中</h3>
+
+                <p class="team-intro" id="teamIntro">
+                    曾被稱為飛不起來的烏鴉，在新世代加入後重新展翅。
+                </p>
+
+                <div class="team-meta">
+                    <div>
+                        <span>代表色</span>
+                        <strong id="teamColor">橘色 × 黑色</strong>
+                    </div>
+
+                    <div>
+                        <span>代表角色</span>
+                        <strong id="teamPlayers">日向翔陽、影山飛雄</strong>
+                    </div>
+
+                    <div>
+                        <span>球隊定位</span>
+                        <strong id="teamType">高速進攻型</strong>
+                    </div>
+                </div>
+
+                <div class="team-tags" id="teamTags">
+                    <span>主角隊伍</span>
+                    <span>怪人快攻</span>
+                    <span>再次飛翔</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="charm" class="section">
+    <div class="section-title">
+        <span>WHY WATCH</span>
+        <h2>作品魅力</h2>
+        <p>不是只有勝利才值得紀念，努力過的每一球都算數。</p>
+    </div>
+
+    <div class="charm-board">
+        <div class="charm-item">努力會累積成真正的力量</div>
+        <div class="charm-item">隊友與對手都擁有高光時刻</div>
+        <div class="charm-item">失敗後還能再次站上球場</div>
+        <div class="charm-item">團隊合作熱血又真實</div>
+        <div class="charm-item">只要球還沒落地，就還有機會</div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    Haikyuu!! Fan Website｜青春不只是一場比賽，而是一群人一起飛翔。
+</footer>
+
+</body>
+</html>
